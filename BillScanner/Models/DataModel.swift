@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import Combine
+
+final class DataModel: ObservableObject {
+    @Published var profile = Profile.default
+    
+}

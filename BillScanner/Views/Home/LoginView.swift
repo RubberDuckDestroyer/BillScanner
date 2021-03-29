@@ -8,8 +8,12 @@
 import SwiftUI
 
 struct LoginView: View {
-    @Binding var email: String
-    @Binding var password: String
+    
+    @EnvironmentObject var dataModel: DataModel
+    
+    
+    @State private var email: String = ""
+    @State private var password: String = ""
     
     var body: some View{
         VStack {
@@ -56,7 +60,9 @@ struct LoginView: View {
 }
 
 struct LoginView_Previews: PreviewProvider {
+    
     static var previews: some View {
-        LoginView(email: .constant(""), password: .constant(""))
+        LoginView()
+            .environmentObject(DataModel())
     }
 }

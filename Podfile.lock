@@ -1,0 +1,57 @@
+PODS:
+  - Amplify (1.6.0):
+    - Amplify/Default (= 1.6.0)
+  - Amplify/Default (1.6.0)
+  - Amplify/Tools (1.6.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (1.6.0):
+    - AWSAuthCore (~> 2.22.0)
+    - AWSCognitoIdentityProvider (~> 2.22.0)
+    - AWSCognitoIdentityProviderASF (~> 2.22.0)
+    - AWSCore (~> 2.22.0)
+    - AWSMobileClient (~> 2.22.0)
+    - AWSPluginsCore (= 1.6.0)
+  - AWSAuthCore (2.22.3):
+    - AWSCore (= 2.22.3)
+  - AWSCognitoIdentityProvider (2.22.3):
+    - AWSCognitoIdentityProviderASF (= 2.22.3)
+    - AWSCore (= 2.22.3)
+  - AWSCognitoIdentityProviderASF (2.22.3)
+  - AWSCore (2.22.3)
+  - AWSMobileClient (2.22.3):
+    - AWSAuthCore (= 2.22.3)
+    - AWSCognitoIdentityProvider (= 2.22.3)
+    - AWSCognitoIdentityProviderASF (= 2.22.3)
+    - AWSCore (= 2.22.3)
+  - AWSPluginsCore (1.6.0):
+    - Amplify (= 1.6.0)
+    - AWSCore (~> 2.22.0)
+
+DEPENDENCIES:
+  - Amplify (~> 1.0)
+  - Amplify/Tools (~> 1.0)
+  - AmplifyPlugins/AWSCognitoAuthPlugin (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Amplify
+    - AmplifyPlugins
+    - AWSAuthCore
+    - AWSCognitoIdentityProvider
+    - AWSCognitoIdentityProviderASF
+    - AWSCore
+    - AWSMobileClient
+    - AWSPluginsCore
+
+SPEC CHECKSUMS:
+  Amplify: fe8cbe6fcd0e6468f537bd49e6c3d15437442576
+  AmplifyPlugins: 85fa4fa7d0eb78a4f4f44dcf107993a8c13fdf2a
+  AWSAuthCore: 5a2e6c939281a56c30f68896bc68ee44044400bc
+  AWSCognitoIdentityProvider: 5aefe4cbfdecc2f9335fb0e2236d334b2d438d59
+  AWSCognitoIdentityProviderASF: 455fb74bf1b0b5aeab9800495f2060f391f2e38e
+  AWSCore: c86b71ff60747c4058769af64ed871ebfae16ddb
+  AWSMobileClient: 6f63dd57d3df2ebcac1be074144f029e0db90536
+  AWSPluginsCore: d21990b54729e2a95620922ea83e123adaa678cd
+
+PODFILE CHECKSUM: 348eaa424fe820e5653bece49b13b72c8c4a8bbd
+
+COCOAPODS: 1.10.1

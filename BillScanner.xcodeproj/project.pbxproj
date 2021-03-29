@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1CD698C1519C4DF9AD670E86 /* amplifyconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = 10CA8290C02B4EB399075B7F /* amplifyconfiguration.json */; };
+		4A31F87B25DE509B00BB5AD9 /* Backend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31F87A25DE509B00BB5AD9 /* Backend.swift */; };
+		4A31F87E25DE518700BB5AD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31F87D25DE518700BB5AD9 /* AppDelegate.swift */; };
+		4A31F88225DE540700BB5AD9 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A31F88125DE540700BB5AD9 /* LoginView.swift */; };
+		4A75CC0625D8D53000478C99 /* DocumentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75CC0525D8D53000478C99 /* DocumentView.swift */; };
+		4A75CC1225D8E01800478C99 /* DocumentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75CC1125D8E01800478C99 /* DocumentViewController.swift */; };
+		4A75CC1525D8E43A00478C99 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75CC1425D8E43A00478C99 /* HomeView.swift */; };
+		4A75CC1C25DA3EC800478C99 /* PDFProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A75CC1B25DA3EC800478C99 /* PDFProcessor.swift */; };
+		4AB28C8825D8C1320014FA33 /* BillScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB28C8725D8C1320014FA33 /* BillScannerApp.swift */; };
+		4AB28C8A25D8C1320014FA33 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB28C8925D8C1320014FA33 /* ContentView.swift */; };
+		4AB28C8C25D8C1330014FA33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB28C8B25D8C1330014FA33 /* Assets.xcassets */; };
+		4AB28C8F25D8C1330014FA33 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB28C8E25D8C1330014FA33 /* Preview Assets.xcassets */; };
+		4AB28C9A25D8C31F0014FA33 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB28C9925D8C31F0014FA33 /* Profile.swift */; };
+		4AB28C9E25D8C5220014FA33 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB28C9D25D8C5220014FA33 /* Home.swift */; };
+		4AE6F9CA25DE662F00EA2A4C /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6F9C925DE662F00EA2A4C /* DataModel.swift */; };
+		990D034700204A04B50207AC /* awsconfiguration.json in Resources */ = {isa = PBXBuildFile; fileRef = BD45935343C74737B7EA76E9 /* awsconfiguration.json */; };
+		F435A01A0341B56301FCD2F9 /* Pods_BillScanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08F7DAB189EA19FFC33BF08 /* Pods_BillScanner.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10CA8290C02B4EB399075B7F /* amplifyconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = amplifyconfiguration.json; sourceTree = "<group>"; };
+		4A31F87A25DE509B00BB5AD9 /* Backend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Backend.swift; sourceTree = "<group>"; };
+		4A31F87D25DE518700BB5AD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4A31F88125DE540700BB5AD9 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4A75CC0525D8D53000478C99 /* DocumentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentView.swift; sourceTree = "<group>"; };
+		4A75CC1125D8E01800478C99 /* DocumentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentViewController.swift; sourceTree = "<group>"; };
+		4A75CC1425D8E43A00478C99 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		4A75CC1B25DA3EC800478C99 /* PDFProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFProcessor.swift; sourceTree = "<group>"; };
+		4AB28C8425D8C1320014FA33 /* BillScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AB28C8725D8C1320014FA33 /* BillScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillScannerApp.swift; sourceTree = "<group>"; };
+		4AB28C8925D8C1320014FA33 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4AB28C8B25D8C1330014FA33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4AB28C8E25D8C1330014FA33 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4AB28C9025D8C1330014FA33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AB28C9925D8C31F0014FA33 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		4AB28C9D25D8C5220014FA33 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4AE6F9C925DE662F00EA2A4C /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		B08F7DAB189EA19FFC33BF08 /* Pods_BillScanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BillScanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD45935343C74737B7EA76E9 /* awsconfiguration.json */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = awsconfiguration.json; sourceTree = "<group>"; };
+		FA66F93154D446C5B5348ABC /* Pods-BillScanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillScanner.release.xcconfig"; path = "Target Support Files/Pods-BillScanner/Pods-BillScanner.release.xcconfig"; sourceTree = "<group>"; };
+		FA8E876E1E9E1216675FCCD2 /* Pods-BillScanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BillScanner.debug.xcconfig"; path = "Target Support Files/Pods-BillScanner/Pods-BillScanner.debug.xcconfig"; sourceTree = "<group>"; };
+		FFB5AF5694224DF3AA48FCD6 /* amplifytools.xcconfig */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.xcconfig; path = amplifytools.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4AB28C8125D8C1320014FA33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F435A01A0341B56301FCD2F9 /* Pods_BillScanner.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A75CC2025DE48EF00478C99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4AB28C8925D8C1320014FA33 /* ContentView.swift */,
+				4A75CC2725DE4A5900478C99 /* Home */,
+				4A75CC1125D8E01800478C99 /* DocumentViewController.swift */,
+				4A75CC0525D8D53000478C99 /* DocumentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		4A75CC2125DE494900478C99 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				4A75CC1B25DA3EC800478C99 /* PDFProcessor.swift */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		4A75CC2725DE4A5900478C99 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				4A31F88125DE540700BB5AD9 /* LoginView.swift */,
+				4A75CC1425D8E43A00478C99 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		4AB28C7B25D8C1320014FA33 = {
+			isa = PBXGroup;
+			children = (
+				6EDCCD6AAC5D46D5AB6AEB65 /* AmplifyConfig */,
+				4AB28C8625D8C1320014FA33 /* BillScanner */,
+				4AB28C8525D8C1320014FA33 /* Products */,
+				D6CEE95D813AF73A8BD68B67 /* Pods */,
+				F4CBA1894D30707408B7205C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4AB28C8525D8C1320014FA33 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4AB28C8425D8C1320014FA33 /* BillScanner.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4AB28C8625D8C1320014FA33 /* BillScanner */ = {
+			isa = PBXGroup;
+			children = (
+				4A75CC2125DE494900478C99 /* PDF */,
+				4AB28C9825D8C2BC0014FA33 /* Models */,
+				4A75CC2025DE48EF00478C99 /* Views */,
+				4AB28C8725D8C1320014FA33 /* BillScannerApp.swift */,
+				4A31F87D25DE518700BB5AD9 /* AppDelegate.swift */,
+				4AB28C9D25D8C5220014FA33 /* Home.swift */,
+				4AB28C8B25D8C1330014FA33 /* Assets.xcassets */,
+				4AB28C9025D8C1330014FA33 /* Info.plist */,
+				4AB28C9725D8C2AB0014FA33 /* Resources */,
+				4AB28C8D25D8C1330014FA33 /* Preview Content */,
+			);
+			path = BillScanner;
+			sourceTree = "<group>";
+		};
+		4AB28C8D25D8C1330014FA33 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4AB28C8E25D8C1330014FA33 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4AB28C9725D8C2AB0014FA33 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4AB28C9825D8C2BC0014FA33 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4AB28C9925D8C31F0014FA33 /* Profile.swift */,
+				4A31F87A25DE509B00BB5AD9 /* Backend.swift */,
+				4AE6F9C925DE662F00EA2A4C /* DataModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6EDCCD6AAC5D46D5AB6AEB65 /* AmplifyConfig */ = {
+			isa = PBXGroup;
+			children = (
+				FFB5AF5694224DF3AA48FCD6 /* amplifytools.xcconfig */,
+				10CA8290C02B4EB399075B7F /* amplifyconfiguration.json */,
+				BD45935343C74737B7EA76E9 /* awsconfiguration.json */,
+			);
+			name = AmplifyConfig;
+			path = .;
+			sourceTree = "<group>";
+		};
+		D6CEE95D813AF73A8BD68B67 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E876E1E9E1216675FCCD2 /* Pods-BillScanner.debug.xcconfig */,
+				FA66F93154D446C5B5348ABC /* Pods-BillScanner.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F4CBA1894D30707408B7205C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B08F7DAB189EA19FFC33BF08 /* Pods_BillScanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4AB28C8325D8C1320014FA33 /* BillScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AB28C9325D8C1330014FA33 /* Build configuration list for PBXNativeTarget "BillScanner" */;
+			buildPhases = (
+				A52DF197BBBB4C4CE2DB4E1B /* [CP] Check Pods Manifest.lock */,
+				4AB28C8025D8C1320014FA33 /* Sources */,
+				4AB28C8125D8C1320014FA33 /* Frameworks */,
+				4AB28C8225D8C1320014FA33 /* Resources */,
+				973D5B95A9415A3536746B99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillScanner;
+			productName = BillScanner;
+			productReference = 4AB28C8425D8C1320014FA33 /* BillScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4AB28C7C25D8C1320014FA33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					4AB28C8325D8C1320014FA33 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 4AB28C7F25D8C1320014FA33 /* Build configuration list for PBXProject "BillScanner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4AB28C7B25D8C1320014FA33;
+			productRefGroup = 4AB28C8525D8C1320014FA33 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4AB28C8325D8C1320014FA33 /* BillScanner */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4AB28C8225D8C1320014FA33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB28C8F25D8C1330014FA33 /* Preview Assets.xcassets in Resources */,
+				4AB28C8C25D8C1330014FA33 /* Assets.xcassets in Resources */,
+				1CD698C1519C4DF9AD670E86 /* amplifyconfiguration.json in Resources */,
+				990D034700204A04B50207AC /* awsconfiguration.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		973D5B95A9415A3536746B99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BillScanner/Pods-BillScanner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BillScanner/Pods-BillScanner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BillScanner/Pods-BillScanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A52DF197BBBB4C4CE2DB4E1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BillScanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4AB28C8025D8C1320014FA33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB28C8A25D8C1320014FA33 /* ContentView.swift in Sources */,
+				4A75CC1525D8E43A00478C99 /* HomeView.swift in Sources */,
+				4A31F87B25DE509B00BB5AD9 /* Backend.swift in Sources */,
+				4AB28C9A25D8C31F0014FA33 /* Profile.swift in Sources */,
+				4AB28C9E25D8C5220014FA33 /* Home.swift in Sources */,
+				4AE6F9CA25DE662F00EA2A4C /* DataModel.swift in Sources */,
+				4A75CC1225D8E01800478C99 /* DocumentViewController.swift in Sources */,
+				4AB28C8825D8C1320014FA33 /* BillScannerApp.swift in Sources */,
+				4A75CC0625D8D53000478C99 /* DocumentView.swift in Sources */,
+				4A31F88225DE540700BB5AD9 /* LoginView.swift in Sources */,
+				4A31F87E25DE518700BB5AD9 /* AppDelegate.swift in Sources */,
+				4A75CC1C25DA3EC800478C99 /* PDFProcessor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4AB28C9125D8C1330014FA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4AB28C9225D8C1330014FA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AB28C9425D8C1330014FA33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA8E876E1E9E1216675FCCD2 /* Pods-BillScanner.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BillScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = BT27TZQ9RB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BillScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitarthasrani.BillScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4AB28C9525D8C1330014FA33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA66F93154D446C5B5348ABC /* Pods-BillScanner.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"BillScanner/Preview Content\"";
+				DEVELOPMENT_TEAM = BT27TZQ9RB;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = BillScanner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hitarthasrani.BillScanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4AB28C7F25D8C1320014FA33 /* Build configuration list for PBXProject "BillScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB28C9125D8C1330014FA33 /* Debug */,
+				4AB28C9225D8C1330014FA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AB28C9325D8C1330014FA33 /* Build configuration list for PBXNativeTarget "BillScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AB28C9425D8C1330014FA33 /* Debug */,
+				4AB28C9525D8C1330014FA33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4AB28C7C25D8C1320014FA33 /* Project object */;
+}
